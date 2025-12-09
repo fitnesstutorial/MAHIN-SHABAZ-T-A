@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahin Shabaz TA — Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Roboto, sans-serif;
+            background: #f5f7fa;
+            color: #333;
+        }
+
+        .container {
+            width: 85%;
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 0 10px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #666;
+            font-size: 16px;
+        }
+
+        .section {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin: 20px 0;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        .section h2 {
+            margin-top: 0;
+            color: #222;
+            font-size: 24px;
+            border-left: 5px solid #007bff;
+            padding-left: 10px;
+        }
+
+        ul {
+            margin-left: -10px;
+        }
+
+        .project-box {
+            padding: 12px 15px;
+            margin: 10px 0;
+            background: #f0f4ff;
+            border-left: 4px solid #4a78ff;
+            border-radius: 8px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 10px;
+        }
+
+        .skill-item {
+            background: #eef1f5;
+            padding: 10px 15px;
+            border-radius: 8px;
+            font-weight: 500;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #555;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Mahin Shabaz TA</h1>
+        <p>Aspiring Web Penetration Tester | Cybersecurity Student</p>
+    </header>
+
+
+    <div class="container">
+
+        <!-- Contact -->
+        <div class="section">
+            <h2>Contact</h2>
+            <p><b>Phone:</b> +91 97470 69948</p>
+            <p><b>Email:</b> <a href="mailto:shahbazshabz2002@gmail.com">shahbazshabz2002@gmail.com</a></p>
+            <p><b>Location:</b> Kasaragod, Kerala, India</p>
+            <p><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/mahin-shabaz-ta-429854341" target="_blank">linkedin.com/in/mahin-shabaz-ta</a></p>
+        </div>
+
+        <!-- Summary -->
+        <div class="section">
+            <h2>Professional Summary</h2>
+            <p>
+                Entry-level Web Penetration Tester with hands-on experience in recon, vulnerability discovery, 
+                and manual exploitation using Burp Suite. Passionate about building automation scripts and 
+                practicing real-world web security labs.
+            </p>
+        </div>
+
+        <!-- Skills -->
+        <div class="section">
+            <h2>Technical Skills</h2>
+
+            <div class="skills-grid">
+                <div class="skill-item">Burp Suite</div>
+                <div class="skill-item">Kali Linux</div>
+                <div class="skill-item">Python</div>
+                <div class="skill-item">SQL</div>
+                <div class="skill-item">Nmap</div>
+                <div class="skill-item">ffuf</div>
+                <div class="skill-item">Nuclei</div>
+                <div class="skill-item">Subfinder / httpx</div>
+                <div class="skill-item">Dirsearch</div>
+                <div class="skill-item">OWASP Testing</div>
+            </div>
+        </div>
+
+        <!-- Projects -->
+        <div class="section">
+            <h2>Projects</h2>
+
+            <div class="project-box">
+                <b>Recon Automation Framework</b><br>
+                Built a full-chain recon tool using Subfinder → httpx → Nuclei → GF → Dirsearch.
+            </div>
+
+            <div class="project-box">
+                <b>XSS Automation Tool</b><br>
+                Automated XSS discovery using qsreplace, freq, gf and crafted payload generation.
+            </div>
+
+            <div class="project-box">
+                <b>Pentesting Practice Labs</b><br>
+                Completed 40+ PortSwigger labs (Auth, Access Control, XSS, SQLi, APIs).
+            </div>
+        </div>
+
+        <!-- Experience -->
+        <div class="section">
+            <h2>Experience</h2>
+            <p><b>Eyeqdotnet — Cybersecurity Intern (2 Months)</b></p>
+            <ul>
+                <li>Performed web app vulnerability assessment using Burp Suite.</li>
+                <li>Hands-on experience in recon, authentication testing, mapping and enumeration.</li>
+                <li>Learned professional methodologies and bug hunting workflows.</li>
+            </ul>
+        </div>
+
+        <!-- Education -->
+        <div class="section">
+            <h2>Education</h2>
+            <p><b>B.Tech in Information Technology</b><br>
+            LBS College of Engineering, Kasaragod (2025)</p>
+        </div>
+
+    </div>
+
+    <footer>
+        © 2025 Mahin Shabaz TA — Portfolio
+    </footer>
+
+</body>
+</html>
